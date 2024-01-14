@@ -1,0 +1,20 @@
+.slider {
+  width: 100%;
+  margin-bottom: 34px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__inner {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 0.4s;
+}
+
+@media (max-width: 992px) {
+  .slider {
+    margin-bottom: 16px;
+  }
+}
