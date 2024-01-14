@@ -25,7 +25,7 @@ export const Card = memo((props: CardProps) => {
   return (
     <div className={`card`} style={{ width: cardSize }}>
       <img
-        className={`card__img ${theme}`}
+        className={`card__img ${theme} ${size}`}
         src={imgLink}
         alt="data-card"
         style={{ height: 344 * sliderScale }}

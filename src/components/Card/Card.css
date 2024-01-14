@@ -14,24 +14,45 @@
 }
 
 .card__img--leaf-1 {
-  border-top-right-radius: 230px;
-  border-bottom-left-radius: 230px;
+  border-top-right-radius: 65%;
+  border-bottom-left-radius: 65%;
 }
 
 .card__img--leaf-2 {
   border: solid 1px black;
-  border-top-left-radius: 230px;
-  border-bottom-right-radius: 230px;
+  border-top-left-radius: 65%;
+  border-bottom-right-radius: 65%;
 }
 
 .card__img--leaf-3 {
+  border: solid 1px black;
+  border-top-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+.card__img--circle {
+  border-radius: 50%;
+}
+
+.card__img--leaf-1.big {
+  border-top-right-radius: 240px;
+  border-bottom-left-radius: 240px;
+}
+
+.card__img--leaf-2.big {
+  border: solid 1px black;
+  border-top-left-radius: 240px;
+  border-bottom-right-radius: 240px;
+}
+
+.card__img--leaf-3.big {
   border: solid 1px black;
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
 }
 
-.card__img--circle {
-  border-radius: 172px;
+.card__img--circle.big {
+  border-radius: 150px;
 }
 
 .card__title {
@@ -39,6 +60,7 @@
   color: #525c7a;
   font-size: 28px;
   line-height: 28px;
+  word-wrap: break-word;
 }
 
 .card__date {
@@ -63,7 +85,7 @@
 
 @media (max-width: 600px) {
   .card__title {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
